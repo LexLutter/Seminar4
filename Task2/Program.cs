@@ -6,10 +6,10 @@ int FirstNumber = Convert.ToInt32(Console.ReadLine());
 while (FirstNumber / 10 > 0){
     result = FirstNumber % 10 + result;
     FirstNumber = FirstNumber / 10;
-     Console.WriteLine($"{FirstNumber % 10} ");
+     //Console.WriteLine($"{FirstNumber % 10} ");
 }
 if (FirstNumber % 10 != 0) {
     result = FirstNumber % 10 + result;
-    Console.WriteLine($"{FirstNumber % 10} ");
+    //Console.WriteLine($"{FirstNumber % 10} ");
 }
-Console.WriteLine($"A в степени B равно: {result}.");
+Console.WriteLine($"Сумма цифр в числе равна: {result}.");
